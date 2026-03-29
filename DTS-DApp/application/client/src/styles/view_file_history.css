@@ -1,0 +1,49 @@
+/* File History Table Styling */
+.view-history-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.history-box {
+  overflow-x: auto;
+  max-width: 100%;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  background-color: #fff;
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+}
+
+th, td {
+  padding: 12px 16px;
+  border: 1px solid #ddd;
+  text-align: left;
+  white-space: nowrap;
+}
+
+th {
+  background-color: #f5f5f5;
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+@media (max-width: 768px) {
+  th, td {
+    font-size: 14px;
+    padding: 8px 10px;
+  }
+}
+
+h2{
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #020200;
+}
